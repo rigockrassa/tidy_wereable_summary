@@ -90,3 +90,4 @@ data_summ <- select(data_set, id,act, mean) %>%
   spread(act,mean)
 
 write.table(data_summ,file = "tidy_wereable_summary", row.name = FALSE)
+data_summ
